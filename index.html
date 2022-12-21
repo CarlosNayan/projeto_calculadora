@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/e5b7faa064.js" crossorigin="anonymous"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculadora">
+        <p id="resultado"></p>
+        <button  onclick="back()" class="back" title="Apagar"><i class="fa-solid fa-delete-left"></i>&nbsp;Backspace </button><br/>
+        <button  onclick="insert('1')" class="number">1</button>
+        <button onclick="insert('2')" class="number">2</button>
+        <button onclick="insert('3')" class="number">3</button>
+        <button onclick="insert('*')" class="vezes" title="Multiplicação">x</button><br/>
+        <button onclick="insert('4')" class="number">4</button>
+        <button onclick="insert('5')" class="number">5</button>
+        <button onclick="insert('6')" class="number">6</button>
+        <button onclick="insert('+')" class="mais" title="Soma">+</button><br/>
+        <button onclick="insert('7')" class="number">7</button>
+        <button onclick="insert('8')" class="number">8</button>
+        <button onclick="insert('9')" class="number">9</button>
+        <button onclick="insert('-')" class="menos" title="Subtração">-</button><br/>
+        <button onclick="clean()" class="clean" title="Limpar tudo">C</button>
+        <button onclick="insert('0')" class="number">0</button>
+        <button onclick="calcular()" class="calcular" title="Igual">=</button>
+        <button onclick="insert('/')" class="divisao" title="Divisão">/</button>   
+      </div>
+   <footer class="footer"></footer>
+</body>
+<script src="scrypt.js"></script>
+</html>

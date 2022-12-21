@@ -1,0 +1,144 @@
+body{
+background-image: url(./assets/teahub.io-math-wallpaper-518770.png);
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 17%;  
+}
+.calculadora{
+background-color: rgb(194, 194, 194);
+border: 2px solid black;
+width: 212px;
+height: 310px;
+padding: 10px;
+border-radius: 10px;
+content: flex;
+}
+#resultado{
+background-color: rgb(85, 85, 85);
+color: black;
+border: 2px solid black;
+margin: 10px solid black; 
+width: 190px;
+height: 30px;
+border-radius: 10px;
+font-size: 20px;
+margin: 10px 5px;
+text-align: right;
+padding-right: 10px;
+padding-top: 2px;
+}
+.back{
+background-color: black;
+width: 200px;
+height: 30px;
+border-radius: 0%;
+font-size: 16px;
+color: aliceblue;
+margin: 10px 5px;
+align-items: right;
+text-align: right;
+}
+.back:hover{
+background-color: rgb(255, 0, 0, 0.7);
+transition: 0.5s;
+opacity: 0.7;
+}
+.number{
+background-color: black;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+font-size: 16px;
+color: aliceblue;
+margin: 5px;
+}
+.number:hover{
+background-color: #4c00ff;
+transition: 0.5s;
+opacity: 0.7;
+}
+.vezes{
+background-color: black;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+font-size: 16px;
+color: aliceblue;
+margin: 5px;
+}
+.vezes:hover{
+background-color: #4c00ff;
+transition: 0.5s;
+opacity: 0.7;
+}
+.mais{
+background-color: black;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+font-size: 16px;
+color: aliceblue;
+margin: 5px;
+}
+.mais:hover{
+background-color: #4c00ff;
+transition: 0.5s;
+opacity: 0.7;
+}
+.menos{
+background-color: black;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+font-size: 16px;
+color: aliceblue;
+margin: 5px;
+}
+.menos:hover{
+background-color: #4c00ff;
+transition: 0.5s;
+opacity: 0.7;
+}
+.clean{
+background-color: black;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+font-size: 16px;
+color: aliceblue;
+margin: 5px;
+}
+.clean:hover{
+background-color: #4c00ff;
+transition: 0.5s;
+opacity: 0.7;
+}
+.calcular{
+background-color: black;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+font-size: 16px;
+color: aliceblue;
+margin: 5px;
+}
+.calcular:hover{
+background-color: #00a838;
+transition: 0.5s;
+opacity: 0.7;
+}
+.divisao{
+background-color: black;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+font-size: 16px;
+color: aliceblue;
+margin: 5px;
+}   
+.divisao:hover{
+background-color: #4c00ff;
+transition: 0.5s;
+opacity: 0.7;
+}
