@@ -12,7 +12,6 @@
 <body>
     <div class="calculadora">
         <p id="resultado"></p>
-        <button  onclick="back()" class="back" title="Apagar"><i class="fa-solid fa-delete-left"></i>&nbsp;Backspace </button><br/>
         <button  onclick="insert('1')" class="number">1</button>
         <button onclick="insert('2')" class="number">2</button>
         <button onclick="insert('3')" class="number">3</button>
@@ -27,8 +26,11 @@
         <button onclick="insert('-')" class="menos" title="Subtração">-</button><br/>
         <button onclick="clean()" class="clean" title="Limpar tudo">C</button>
         <button onclick="insert('0')" class="number">0</button>
+        <button  onclick="back()" class="back" title="Apagar"><i class="fa-solid fa-delete-left"></i></button>
+        <button onclick="insert('/')" class="divisao" title="Divisão">/</button>
+        <br>
         <button onclick="calcular()" class="calcular" title="Igual">=</button>
-        <button onclick="insert('/')" class="divisao" title="Divisão">/</button>   
+        <button onclick="insert('.')" class="dot">.</button>      
       </div>
    <footer class="footer"></footer>
 </body>
