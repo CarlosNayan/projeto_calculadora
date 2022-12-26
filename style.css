@@ -1,13 +1,13 @@
 body{
-background-image: url(./assets/teahub.io-math-wallpaper-518770.png);
+background-color: #0e0f11;
 display: flex;
 flex-direction: column;
 align-items: center;
-margin-top: 17%;  
+margin-top: 30vh;
 }
 .calculadora{
-background-color: rgb(194, 194, 194);
-border: 2px solid black;
+background-color: #30343a;
+border: 2px solid rgb(255, 255, 255);
 width: 212px;
 height: 310px;
 padding: 10px;
@@ -15,7 +15,7 @@ border-radius: 10px;
 content: flex;
 }
 #resultado{
-background-color: rgb(85, 85, 85);
+background-color: #9ad161;
 color: black;
 border: 2px solid black;
 margin: 10px solid black; 
@@ -30,19 +30,19 @@ padding-top: 2px;
 }
 .back{
 background-color: black;
-width: 200px;
-height: 30px;
-border-radius: 0%;
+border-radius: 50%;
+width: 40px;
+height: 40px;
 font-size: 16px;
 color: aliceblue;
-margin: 10px 5px;
-align-items: right;
-text-align: right;
+margin: 5px;
+border: none;
 }
 .back:hover{
 background-color: rgb(255, 0, 0, 0.7);
 transition: 0.5s;
 opacity: 0.7;
+border: none;
 }
 .number{
 background-color: black;
@@ -52,93 +52,122 @@ height: 40px;
 font-size: 16px;
 color: aliceblue;
 margin: 5px;
+border: none;
 }
 .number:hover{
 background-color: #4c00ff;
 transition: 0.5s;
 opacity: 0.7;
+border: none;
 }
 .vezes{
-background-color: black;
+background-color: #fa980b;
 border-radius: 50%;
 width: 40px;
 height: 40px;
 font-size: 16px;
 color: aliceblue;
 margin: 5px;
+border: none;
 }
 .vezes:hover{
 background-color: #4c00ff;
 transition: 0.5s;
 opacity: 0.7;
+border: none;
 }
 .mais{
-background-color: black;
+background-color: #fa980b;
 border-radius: 50%;
 width: 40px;
 height: 40px;
 font-size: 16px;
 color: aliceblue;
 margin: 5px;
+border: none;
 }
 .mais:hover{
 background-color: #4c00ff;
 transition: 0.5s;
 opacity: 0.7;
+border: none;
 }
 .menos{
-background-color: black;
+background-color: #fa980b;
 border-radius: 50%;
 width: 40px;
 height: 40px;
 font-size: 16px;
 color: aliceblue;
 margin: 5px;
+border: none;
 }
 .menos:hover{
 background-color: #4c00ff;
 transition: 0.5s;
 opacity: 0.7;
+border: none;
 }
-.clean{
-background-color: black;
+.divisao{
+background-color: #fa980b;
 border-radius: 50%;
 width: 40px;
 height: 40px;
 font-size: 16px;
 color: aliceblue;
 margin: 5px;
+border: none;
+}   
+.divisao:hover{
+background-color: #4c00ff;
+transition: 0.5s;
+opacity: 0.7;
+border: none;
+}
+.dot{
+background-color: #fa980b;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+font-size: 16px;
+color: aliceblue;
+margin: 5px;
+border: none;
+}
+.dot:hover{
+background-color: #4c00ff;
+transition: 0.5s;
+opacity: 0.7;
+border: none;
+}
+.clean{
+background-color: #ea5959;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+font-size: 16px;
+color: aliceblue;
+margin: 5px;
+border: none;
 }
 .clean:hover{
 background-color: #4c00ff;
 transition: 0.5s;
 opacity: 0.7;
+border: none;
 }
 .calcular{
-background-color: black;
-border-radius: 50%;
-width: 40px;
+background-color: #3e8af7;
+border-radius: 10px;
+width: 148px;
 height: 40px;
 font-size: 16px;
 color: aliceblue;
 margin: 5px;
+border: none;
 }
 .calcular:hover{
 background-color: #00a838;
-transition: 0.5s;
-opacity: 0.7;
-}
-.divisao{
-background-color: black;
-border-radius: 50%;
-width: 40px;
-height: 40px;
-font-size: 16px;
-color: aliceblue;
-margin: 5px;
-}   
-.divisao:hover{
-background-color: #4c00ff;
 transition: 0.5s;
 opacity: 0.7;
 }
