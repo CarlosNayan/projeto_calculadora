@@ -4,7 +4,7 @@ function insert(num) {
   }
 
   function clean() {
-    document.getElementById("resultado").innerHTML = "0";
+    document.getElementById("resultado").innerHTML = "";
   }
 
   function back() {
@@ -19,6 +19,6 @@ function calcular() {
   if (resultado) {
     document.getElementById("resultado").innerHTML = eval(resultado);
   } else {
-    document.getElementById("resultado").innerHTML = "N/A";
+    document.getElementById("resultado").innerHTML = "";
   }
 }
