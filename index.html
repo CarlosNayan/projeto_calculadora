@@ -1,38 +1,81 @@
 <!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css" />
-    <script src="https://kit.fontawesome.com/e5b7faa064.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="svg" href="./assets/calculator-solid.svg">
-    <title>Calculadora</title>
-</head>
-<body>
-    <div class="calculadora">
-        <p id="resultado"></p>
-        <button  onclick="insert('1')" class="number">1</button>
-        <button onclick="insert('2')" class="number">2</button>
-        <button onclick="insert('3')" class="number">3</button>
-        <button onclick="insert('*')" class="vezes" title="Multiplicação">x</button><br/>
-        <button onclick="insert('4')" class="number">4</button>
-        <button onclick="insert('5')" class="number">5</button>
-        <button onclick="insert('6')" class="number">6</button>
-        <button onclick="insert('+')" class="mais" title="Soma">+</button><br/>
-        <button onclick="insert('7')" class="number">7</button>
-        <button onclick="insert('8')" class="number">8</button>
-        <button onclick="insert('9')" class="number">9</button>
-        <button onclick="insert('-')" class="menos" title="Subtração">-</button><br/>
-        <button onclick="clean()" class="clean" title="Limpar tudo">C</button>
-        <button onclick="insert('0')" class="number">0</button>
-        <button  onclick="back()" class="back" title="Apagar"><i class="fa-solid fa-delete-left"></i></button>
-        <button onclick="insert('/')" class="divisao" title="Divisão">/</button>
-        <br>
-        <button onclick="calcular()" class="calcular" title="Igual">=</button>
-        <button onclick="insert('.')" class="dot">.</button>      
-      </div>
-   <footer class="footer"></footer>
-</body>
-<script src="scrypt.js"></script>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <script src="./script.js" defer></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+        <title>Calculadora</title>
+
+    </head>
+    <body>
+        <div class="app-box">
+
+            <div class="display">
+
+                <div class="input"></div>
+
+                <div class="output">
+
+                    <img src="./assets/equals.svg" alt="sinal de igual">
+
+                    <span class="result">0</span>
+
+                </div>
+
+            </div>
+
+            <div class="keyboard">
+                
+                <button onclick="clean()" title="Limpar tudo">CE</button>
+
+                <button onclick="back()" title="Apagar">C</button>
+
+                <button onclick="insert('%')" title="Porcentagem"><img src="./assets/percentage.svg" alt="percentage"></button>
+                
+                <button onclick="insert('/')" title="Dividir"><img src="./assets/divide.svg" alt=""></button>
+
+                <button onclick="insert('7')">7</button>
+
+                <button onclick="insert('8')">8</button>
+
+                <button onclick="insert('9')">9</button>
+                
+                <button onclick="insert('*')" title="Multiplicar"><img src="./assets/x.svg" alt=""></button>
+
+                <button onclick="insert('4')">4</button>
+
+                <button onclick="insert('5')">5</button>
+
+                <button onclick="insert('6')">6</button>
+                
+                <button onclick="insert('-')" title="Subtrair"><img src="./assets/minus.svg" alt=""></button>
+
+                <button onclick="insert('1')">1</button>
+
+                <button onclick="insert('2')">2</button>
+
+                <button onclick="insert('3')">3</button>
+                
+                <button onclick="insert('+')" title="Somar"><img src="./assets/plus.svg" alt=""></button>
+
+                <button><img src="./assets/plusMinus.svg" alt=""></button>
+
+                <button onclick="insert('0')">0</button>
+
+                <button onclick="insert('.')">.</button>
+                
+                <button onclick="calcular()" title="Calcular"><img src="./assets/equalsW.svg" alt=""></button>
+
+            </div>
+         
+        </div>
+    </body>
 </html>
